@@ -55,6 +55,10 @@ AI tools were used: OpenAI ChatGPT assisted with application scaffolding, implem
 └── README.md
 ```
 
+## Live URL
+Backend (Render): https://gridbricks-5exv.onrender.com
+Frontend (Vercel): https://gridbricks-delta.vercel.app
+
 ## Run locally with Docker (recommended)
 
 Prerequisites: Docker Desktop / Docker Engine with the Compose plugin.
