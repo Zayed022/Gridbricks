@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: gridbricks-wind-intelligence-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    healthCheckPath: /api/health
+    envVars:
+      - key: CACHE_TTL_SECONDS
+        value: "900"
+      - key: FRONTEND_ORIGINS
+        value: "*"
